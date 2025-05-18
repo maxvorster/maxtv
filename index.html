@@ -5,7 +5,7 @@
 </head>
 <body>
     <h1>MaxTV!</h1>
-    <h2>Watch all of your favourite movies in HD for Free!</h2> 
+    <h2>Watch all of your favourite movies in Ultra HD for Free!</h2> 
     <h3>Note: if you can't see a movie, you need to add a parameter</h3>
     <h3>For The Minecraft Movie, add "?movie=The Minecraft Movie" (without the speech marks) to the end of the URL</h3> 
     <h3>Movie:</h3>
@@ -17,8 +17,7 @@
 
         // Reference to the div where we will add the video
         const videoPlayer = document.getElementById('videoPlayer');
-        if (movie === 'video1') {
-            // Embed a video based on the movie parameter
+        if (movie === 'The Minecraft Movie') {
             videoPlayer.innerHTML = `
                 <video width="640" height="360" controls>
                     <source src="video1.mp4" type="video/mp4">
